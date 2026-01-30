@@ -126,6 +126,15 @@
 #     soma=n1*n2
     
 #     print(n1,"x",n2,"=",soma)
-import random
+# def RetornaSoma(n1,n2):
+#     soma=n1+n2
+#     return soma
+# resultado= RetornaSoma(RetornaSoma(20,10),RetornaSoma(30,40))
 
-print(random.choice(1,2))
+# print(resultado)
+
+vet= list(range(0,3))
+for i in vet:
+    vet[i] = i*i
+    print(vet[i])
+    
